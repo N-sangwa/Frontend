@@ -1,7 +1,102 @@
- h1{color: brown; 
-    background-color: bisque;
+* {
+    padding:0;
+    margin:0;
+    font-family:'Open', sans-serif;
+}
+.wrapper {
+    width: auto;
+    margin: auto;
+}
+h1{ color:black
+    }
+ul{ position: top right;
+
+}
+.image{ 
+    size:5%;
+    width: 22%;
+    height: 60%;
+    padding-left: 55%;
+    margin-top: -22%;
+    position:fixed; left:80px; top:520px;
+   
 
 }
 body{
-background-color:rgb(255, 239, 196);
+    background-image: url(/IMAGES/keith-misner-h0Vxgz5tyXA-unsplash.jpg)no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1088px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    left: 50%;
+    margin-left : -512px;   
+}
+nav{
+    background-color: rgb(245, 214, 235);
+    height: 50px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 90px;
+    padding-right: 10%;
+    position: inherit; 
+    
+
+}
+nav ul li{
+    display:inline-block;
+    line-height: 70px;
+}
+nav ul li a{
+    color:black;
+    font-size: 16px; 
+    text-transform: uppercase; 
+    text-decoration:none;
+}
+a.active, a:hover{
+    color:rgb(238, 135, 233);
+    transition:.5s;
+    background:rgb(231, 220, 220);
+}
+#paragraph{
+    margin-top:15%;
+}
+.moreimg{
+    margin-left: -50%;
+    padding: 2%;
+}
+table,th,td{
+    padding-top:0;
+    border-collapse: collapse;
+    width: 300px;
+    margin-left:5%;
+    font: size 100px;
+    padding: top -45px;
+    border: 2px solid #000;
+    text-align: center;
+    border-color: rgb(116, 52, 7);
+
+}
+video{
+    padding-bottom: 2%;
+    margin-top: 10%;
+
+}
+.contactslist{
+    padding-top:10%;
+    margin-left:30%;
+    border: 2px ;
+    font: size 20px;
+}
+.moreimg{
+    margin-left: 50%;
+    position:fixed; left:80px; top:140px;
+}
+.we{
+    padding-top: 20%;
 }
